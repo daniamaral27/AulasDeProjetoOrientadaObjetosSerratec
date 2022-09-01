@@ -37,4 +37,4 @@ public class Medico {
 		salario = salario + valorConsulta * 0.70;
 
 }
-}
+} // aula 03
