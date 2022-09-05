@@ -1,0 +1,21 @@
+
+public class Exercicio001 {
+
+	public static void main(String[] args) {
+		// Faça um programa que percorra números entre 0 e 30 e exiba a quantidade 
+		//de números pares e impares.
+			int NumeroPar = 0
+			int NumeroImpar = 0
+			
+			if (NumeroPar = 0, NumeroPar <=30; NumeroPar++) {
+				
+			} if (NumeroImpar = 0; NumeroImpar % 0; NumeroImpar++) {
+				
+				System.out.println("Esses são os números pares: " + NumeroPar);
+				System.out.println("Esses são os números Impares: " + NumeroImpar);
+				
+			}
+		
+	}
+
+}

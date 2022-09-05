@@ -1,0 +1,16 @@
+package br.org.serratec.model;
+
+public class TesteTributos {
+
+	public static void main(String[] args) {
+		Empresa e = new Empresa ("ACB", 259000.);
+		Pessoa p = new Pessoa ("Marcos", 82000.);
+		
+		System.out.println(e + "Tributos a pagar: ICMS"
+				+ e.calcularICMS() + "IR: " + e.calcularImpostoDeRenda());
+		System.out.println(p+ "Tributos a pagar: IR:" + p.calcularImpostoDeRenda());
+		
+
+	}
+
+}

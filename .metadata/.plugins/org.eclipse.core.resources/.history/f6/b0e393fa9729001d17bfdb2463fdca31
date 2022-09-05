@@ -1,0 +1,36 @@
+package br.org.serratec.model;
+
+public class Medico {
+	private Integer crm;
+	private String nome;
+	private Double salario;
+	private Double valorConsulta;
+	public Medico(Integer crm, String nome, Double salario, Double valorConsulta) {
+		super();
+		this.crm = crm;
+		this.nome = nome;
+		this.salario = salario;
+		this.valorConsulta = valorConsulta;
+	}
+	public Integer getCrm() {
+		return crm;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public Double getSalario() {
+		return salario;
+	}
+	public Double getValorConsulta() {
+		return valorConsulta;
+	}
+	
+	public void PagamentoDinheiro() {
+		salario += valorConsulta;
+	}
+	
+	public void PagamentoPlanoDeSaude() {
+		salario = salario + valorConsulta * 0.70;
+
+}
+}

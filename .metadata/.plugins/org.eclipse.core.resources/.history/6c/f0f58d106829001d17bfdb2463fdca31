@@ -1,0 +1,16 @@
+package Teste;
+
+import Aula02POO.Aluno;
+
+public class TesteAluno {
+
+	public static void main(String[] args) {
+		System.out.println(".................");
+		// Instancia de um objeto
+		Aluno aluno1 = new Aluno();
+		Aluno aluno2 = new Aluno();
+		Aluno aluno3 = new Aluno();
+
+	}
+
+}

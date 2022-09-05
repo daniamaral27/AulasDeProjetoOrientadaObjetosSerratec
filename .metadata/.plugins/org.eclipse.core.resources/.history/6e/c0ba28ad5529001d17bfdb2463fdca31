@@ -1,0 +1,14 @@
+
+public class ExemploVariaveis {
+
+	public static void main(String[] args) {
+		//tipos primitivos  um tipo primitivo armazena valores
+		String nome = "Ana";
+		int idade = 20;
+		float altura = 1.85f;
+		double peso = 89.90;
+		System.out.println("Dados: \n" + nome + "\n" + idade + "anos" + "\n" + altura + "\n" + peso);
+		
+	}
+
+}

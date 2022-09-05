@@ -1,0 +1,20 @@
+package br.org.serratec.model;
+
+public class atletaAmador extends maratona{
+	private boolean atestado;
+
+	public atletaAmador(boolean atestado) {
+		super(String nome, String sexo, int idade, Double altura);
+		this.atestado = atestado;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+	
+	public boolean isAtestado() {
+		return atestado;
+	}
+	
+}

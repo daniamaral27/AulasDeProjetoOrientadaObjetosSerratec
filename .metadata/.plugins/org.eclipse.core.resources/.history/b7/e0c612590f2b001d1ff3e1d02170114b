@@ -1,0 +1,19 @@
+
+public class TestePlano {
+
+	public static void main(String[] args) {
+		Clinica clinica = new Clinica("Amil", "Checkup", "234569852");
+		Medico medico = new Medico("Golden Cross", "1233", "Antonio");
+		Anestesista anestesista = new Anestesista("Amil", 124, "Silvana", "Geral")
+
+				clinica.calcularPagamento();
+		medico.calcularPagamento();
+		anestesista.calcularPagamento();
+		
+		System.out.println(clinica + "Valor a receber do Plano: " + clinica.getValorPago());
+		System.out.println(medico + "Valor a receber do Plano: " + medico.getValorPago());
+		System.out.println(anestesista + "Valor a receber do Plano: " + anestesista.getValorPago());
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package br.org.serratec.teste;
+
+import br.org.serratec.model.Veiculo;
+
+	public class testeCaminhao extends Veiculo {
+		private Integer cargaMaxima;
+
+	public testeCaminhao(String chassi, String placa, String cor, Double valor, Integer cargaMaxima) {
+		super(chassi, placa, cor, valor);
+		this.cargaMaxima = cargaMaxima;
+	}
+
+	public Integer getCargaMaxima() {
+		return cargaMaxima;
+	}
+	
+}

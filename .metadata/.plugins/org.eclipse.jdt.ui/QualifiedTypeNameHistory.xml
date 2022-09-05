@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Aula02POO.Aluno"/>
+    <fullyQualifiedTypeName name="Aula02POO.Conta"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.VerifyError"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Pessoa"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Produto"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Medico"/>
+    <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="br.org.senai.model.Lutador"/>
+    <fullyQualifiedTypeName name="br.org.senai.model.Luta"/>
+    <fullyQualifiedTypeName name="br.org.senai.model.Categoria"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Empregado"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.testeEmpregado"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Diretor"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.GerenteAdminstrativo"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Tributacao"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.TotalizaTributos"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Gerente"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Funcionario"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Assistente"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.caminhao"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.Veiculo"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.veiculoParceiro"/>
+    <fullyQualifiedTypeName name="br.org.serratec.teste.TesteMaratona"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.maratona"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.atletaAmador"/>
+    <fullyQualifiedTypeName name="br.org.serratec.model.atletaProfissional"/>
+</qualifiedTypeNameHistroy>

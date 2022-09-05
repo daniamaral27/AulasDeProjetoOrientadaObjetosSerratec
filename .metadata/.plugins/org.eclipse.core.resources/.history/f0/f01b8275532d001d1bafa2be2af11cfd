@@ -1,0 +1,23 @@
+package br.org.serratec.teste;
+
+import br.org.serratec.model.atletaAmador;
+import br.org.serratec.model.atletaProfissional;
+import br.org.serratec.model.maratona;
+
+
+public class TesteMaratona {
+
+	public static void main(String[] args) {
+
+		maratona maratona1 = new atletaAmador("Maria", "F", "18", 1.89, true);
+		maratona maratona2 = new atletaProfissional("Fábio", "M", "17", 1.79, 75);
+		
+		System.out.println(maratona1.toString());
+		maratona1.verificarSituacao();
+	
+		System.out.println(maratona2.toString());
+		maratona2.verificarSituacao();
+	
+	}
+
+}
