@@ -1,7 +1,0 @@
-package Aula02POO;
-
-public class Aluno {
-	public int matrícula;
-	public String nome, email;
-
-}

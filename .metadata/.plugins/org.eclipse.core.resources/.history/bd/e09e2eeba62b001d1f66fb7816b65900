@@ -1,5 +1,0 @@
-package exerciciosIndividuais;
-
-public class Livraria extends Operacao {
-
-}

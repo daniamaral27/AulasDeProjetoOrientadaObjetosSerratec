@@ -9,14 +9,16 @@ public class TesteMaratona {
 
 	public static void main(String[] args) {
 
-		maratona maratona1 = new atletaAmador(true);
-		maratona maratona2 = new atletaProfissional(75.);
+		maratona maratona1 = new atletaAmador("João", "M", 17, 1.80, false);
+		maratona maratona2 = new atletaProfissional("Marcos", "M", 18, 1.80, 75.);
+		
+	
 		
 		System.out.println(maratona1.toString());
-		maratona1.verificarSituacao();
+		maratona1.getVerificarSituacao();
 	
 		System.out.println(maratona2.toString());
-		maratona2.verificarSituacao();
+		maratona2.getVerificarSituacao();
 	
 	}
 

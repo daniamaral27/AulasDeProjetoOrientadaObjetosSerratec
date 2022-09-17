@@ -1,0 +1,4 @@
+create table conta (numero_conta Int Primary key, titular_conta varchar(40), saldo_conta numeric);
+insert into conta (numero_conta, titular_conta, saldo_conta) 
+values(459687, 'Paulo', 536987);
+		('123545, 'Roberto', 5698745);

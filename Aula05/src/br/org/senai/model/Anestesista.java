@@ -5,14 +5,14 @@ public class Anestesista extends Medico {
 	private String tipoAnestesista;
 
 	public Anestesista(String empresa, Integer crm, String nome,
-			String tipoAnestesista) {
+		String tipoAnestesista) {
 		super(empresa, crm, nome);
 		this.tipoAnestesista = tipoAnestesista;
 	}
 
 	@Override
 	public String toString() {
-		return super.toString()+ "Anestesista [tipoAnestesista=" + tipoAnestesista + "]";
+		return super.toString() + " Anestesista= "  + tipoAnestesista;
 	}
 		
 	public String getTipoAnestesista() {

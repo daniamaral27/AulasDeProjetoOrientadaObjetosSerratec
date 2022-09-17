@@ -6,12 +6,12 @@ public class PlanoDeSaude {
 	protected Double valorPago=80.0;
 	protected Double valorISS=5.0;
 	
+	
 	public PlanoDeSaude(String empresa) {
 		super();
 		this.empresa = empresa;
-		this.valorPago = valorPago;
-		this.valorISS = valorISS;
-	}
+		}
+
 	public String getEmpresa() {
 		return empresa;
 	}

@@ -1,9 +1,0 @@
-package exerciciosIndividuais;
-public class Operacao {
-	private String tipo
-	private Double valorOperacao;
-	private Livro livro;
-	
-
-	
-}

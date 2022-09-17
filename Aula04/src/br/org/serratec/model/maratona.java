@@ -5,6 +5,8 @@ public class maratona {
 	protected String sexo;
 	protected int idade;
 	protected Double altura;
+	protected Boolean verificarSituacao;
+	
 	public maratona(String nome, String sexo, int idade, Double altura) {
 		super();
 		this.nome = nome;
@@ -12,6 +14,12 @@ public class maratona {
 		this.idade = idade;
 		this.altura = altura;
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+	
 	public String getNome() {
 		return nome;
 	}
@@ -21,14 +29,20 @@ public class maratona {
 	public Double getAltura() {
 		return altura;
 	}
-	public void verificarSituacao() {
-	} {
-		if (idade > 18 || altura >= 1.8); {
-		System.out.println("O atleta pode competir");	
-		else {
-		System.out.println("O atleta não pode competir");	
 
-		}
+	public String getSexo() {
+		return sexo;
 	}
+
+	public String getVerificarSituacao() {
+		return(idade > 18 || altura >= 1.80)? "Competirá" : "Não competirá"));
+	
 		}
+		
+	}
+	
 }
+	
+
+	
+	
